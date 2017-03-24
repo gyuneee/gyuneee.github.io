@@ -12,6 +12,7 @@ body {
     height: 100%;
 }
 header div h1 {
+    width: auto;
     background: url(../img/white.png), url(../img/black.png);
     background-repeat: no-repeat;
     background-size: 50% 100%, 50% 100%;
@@ -172,7 +173,7 @@ hr.small {
 }
 section div div div h2 {
     font-family: fantasy;
-    color: gray;
+    color: white;
     font-size: 50px;
 }
 
@@ -185,6 +186,7 @@ section div div div h2 {
 /* Services */
 
 .services {
+    background-color: gray;
     padding: 50px 0;
 }
 
@@ -211,6 +213,7 @@ aside div h1 {
 /* Portfolio */
 
 .portfolio {
+    background-color: gray;
     padding: 50px 0;
 }
 

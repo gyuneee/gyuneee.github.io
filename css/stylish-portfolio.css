@@ -150,18 +150,29 @@ hr.small {
 
 /* Header */
 
-.header {
+.left-box {
     display: table;
     position: relative;
-    width: 100%;
+    width: 50%;
     height: 100%;
-    background: url(../img/likelion.png), url(../img/kyunghee.png) no-repeat center center scroll;
+    background: url(../img/likelion.png) no-repeat left left scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    background-position: center left, center right;
 }
+.right-box {
+    display: table;
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background: url(../img/kyunghee.png) no-repeat right right scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 
 /* About */
 

@@ -199,6 +199,10 @@ section div div div h2 {
    min-height: 100%;
    z-index: -100;
    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    
 }
 
 .service-item {
